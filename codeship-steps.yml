@@ -17,7 +17,7 @@
   tag: master
   command: ./scripts/integration
 
-- name: "verify release"
+- name: "verify release"g
   service: test
   tag: (\d+(\.\d+)+)
   command: ./scripts/verify
